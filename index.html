@@ -5,8 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Everex.asia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    
+    <div class="pagewrapper">
+        <nav>
+            <div class="top-navbar-wrapper">
+                <div class="logo-link">
+                    <a href="http://en.everex.asia" class="logo-link-wrapper"><img src="/img/logo.png" alt="everex logo"></a>
+                </div>
+                <div class="topnavlinks-wrapper">
+                    <ul class="top-links">
+                        <li class="topnavlinks"><a href="#">About</a></li>
+                        <li class="topnavlinks"><a href="#">Details</a></li>
+                        <li class="topnavlinks"><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="topnav-buttons-wrapper">
+                    <button class="top-btn grey-btn">Online Wallet</button>
+                    <button class="top-btn dark-btn">Get App</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-section">
+            <div class="col-50">
+                <h1>Send money online quickly and securely. No Thai bank account or credit card needed!</h1>
+            </div>
+            <div class="col-50">
+                <div class="converter-wrapper">
+                    <h2 class="converter-heading">Start Sending Now</h2>
+                    <form class="converter">
+                        <label for="">Sending amount:</label>
+                        <div class="first-curr-wrapper">
+                            <input id="first-exchange" class="converter-input" type="text" placeholder="100">
+                            <span class="first-curr">THB</span>
+                        </div>
+                        <label for="">Delivery method:</label>
+                        <select name="delivery" id="delivery-method" class="select-meth">
+                            <option value="Bank Transfer">Bank Transfer</option>
+                            <option value="ATM Withdraws">ATM Withdraws</option>
+                            <option value="Bank Cash Pick-Up">Bank Cash Pick-Up</option>
+                        </select>
+                        <label for="">Receive:</label>
+                        <div class="second-curr-wrapper">
+                            <input id="second-exchange" class="converter-input" type="text" value="0">
+                            <span class="second-curr">EUR</span>
+                        </div>
+                        <div class="converter-btn-wrapper">
+                            <a href="https://everex.cash" class="converter-btn">Get started</a>
+                        </div>
+                    </form>
+                    <p class="converter-text"><strong>Delivery time:</strong> less 1 minute</p>
+                    <p class="converter-text"><strong>No fees for personal transfers</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

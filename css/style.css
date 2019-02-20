@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Helvetica Neue, Helvetica, Arial,sans-serif;
+}
+
+.pagewrapper {
+    max-width: 960px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.top-navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.topnavlinks {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.topnavlinks > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.top-btn {
+    padding: 10px 20px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-btn.grey-btn {
+    color: #000000;
+    background-color: lightgrey;
+}
+
+.top-btn.dark-btn {
+    color: #ffffff;
+    background-color: #2e4ea2;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+h2.converter-heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.converter-wrapper {
+    padding: 5px 20px;
+    background-color: #082c8e;
+    opacity: 0.75;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.converter > label {
+    color: #ffffff;
+    display: block;
+}
+
+.converter-input {
+    background-color: #ffffff;
+    border: 1px solid #8095a8;
+    color: #525252;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 8px 0 8px 0;
+    line-height: 19px;
+    width: 100%;
+    height: 43px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.converter-btn {
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #f75070;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.converter-text {
+    color: #ffffff;
+}
+
+.first-curr-wrapper,
+.second-curr-wrapper {
+    position: relative;
+}
+
+span.first-curr,
+span.second-curr {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.select-meth {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
